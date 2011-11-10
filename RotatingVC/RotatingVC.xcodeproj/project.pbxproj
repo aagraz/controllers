@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDBF9C7C146B377B00B52406 /* horizontal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBF9C7A146B377B00B52406 /* horizontal.jpg */; };
+		EDBF9C7D146B377B00B52406 /* vertical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EDBF9C7B146B377B00B52406 /* vertical.jpg */; };
+		EDBF9C83146B37BD00B52406 /* ImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBF9C81146B37BD00B52406 /* ImageVC.m */; };
+		EDBF9C84146B37BD00B52406 /* ImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDBF9C82146B37BD00B52406 /* ImageVC.xib */; };
+		EDBF9C8A146B4BCE00B52406 /* FRRRotatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBF9C87146B4BCE00B52406 /* FRRRotatingViewController.m */; };
+		EDBF9C8B146B4BCE00B52406 /* FRRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBF9C89146B4BCE00B52406 /* FRRViewController.m */; };
+		EDCB5D29146B34AE005114EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB5D28146B34AE005114EE /* UIKit.framework */; };
+		EDCB5D2B146B34AE005114EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB5D2A146B34AE005114EE /* Foundation.framework */; };
+		EDCB5D2D146B34AE005114EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCB5D2C146B34AE005114EE /* CoreGraphics.framework */; };
+		EDCB5D33146B34AE005114EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDCB5D31146B34AE005114EE /* InfoPlist.strings */; };
+		EDCB5D35146B34AE005114EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCB5D34146B34AE005114EE /* main.m */; };
+		EDCB5D39146B34AE005114EE /* FRRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCB5D38146B34AE005114EE /* FRRAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDBF9C7A146B377B00B52406 /* horizontal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horizontal.jpg; sourceTree = "<group>"; };
+		EDBF9C7B146B377B00B52406 /* vertical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vertical.jpg; sourceTree = "<group>"; };
+		EDBF9C80146B37BD00B52406 /* ImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageVC.h; sourceTree = "<group>"; };
+		EDBF9C81146B37BD00B52406 /* ImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageVC.m; sourceTree = "<group>"; };
+		EDBF9C82146B37BD00B52406 /* ImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageVC.xib; sourceTree = "<group>"; };
+		EDBF9C86146B4BCE00B52406 /* FRRRotatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRRRotatingViewController.h; path = ../FRRRotatingViewController.h; sourceTree = "<group>"; };
+		EDBF9C87146B4BCE00B52406 /* FRRRotatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRRRotatingViewController.m; path = ../FRRRotatingViewController.m; sourceTree = "<group>"; };
+		EDBF9C88146B4BCE00B52406 /* FRRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRRViewController.h; path = ../FRRViewController.h; sourceTree = "<group>"; };
+		EDBF9C89146B4BCE00B52406 /* FRRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRRViewController.m; path = ../FRRViewController.m; sourceTree = "<group>"; };
+		EDCB5D24146B34AE005114EE /* RotatingVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCB5D28146B34AE005114EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDCB5D2A146B34AE005114EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDCB5D2C146B34AE005114EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDCB5D30146B34AE005114EE /* RotatingVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotatingVC-Info.plist"; sourceTree = "<group>"; };
+		EDCB5D32146B34AE005114EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDCB5D34146B34AE005114EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDCB5D36146B34AE005114EE /* RotatingVC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotatingVC-Prefix.pch"; sourceTree = "<group>"; };
+		EDCB5D37146B34AE005114EE /* FRRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FRRAppDelegate.h; sourceTree = "<group>"; };
+		EDCB5D38146B34AE005114EE /* FRRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRRAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCB5D21146B34AE005114EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB5D29146B34AE005114EE /* UIKit.framework in Frameworks */,
+				EDCB5D2B146B34AE005114EE /* Foundation.framework in Frameworks */,
+				EDCB5D2D146B34AE005114EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDBF9C7F146B378700B52406 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDBF9C7A146B377B00B52406 /* horizontal.jpg */,
+				EDBF9C7B146B377B00B52406 /* vertical.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EDBF9C85146B37C900B52406 /* ImageVC */ = {
+			isa = PBXGroup;
+			children = (
+				EDBF9C80146B37BD00B52406 /* ImageVC.h */,
+				EDBF9C81146B37BD00B52406 /* ImageVC.m */,
+				EDBF9C82146B37BD00B52406 /* ImageVC.xib */,
+			);
+			name = ImageVC;
+			sourceTree = "<group>";
+		};
+		EDBF9C8C146B4BD700B52406 /* RotatingVC */ = {
+			isa = PBXGroup;
+			children = (
+				EDBF9C86146B4BCE00B52406 /* FRRRotatingViewController.h */,
+				EDBF9C87146B4BCE00B52406 /* FRRRotatingViewController.m */,
+				EDBF9C88146B4BCE00B52406 /* FRRViewController.h */,
+				EDBF9C89146B4BCE00B52406 /* FRRViewController.m */,
+			);
+			name = RotatingVC;
+			sourceTree = "<group>";
+		};
+		EDCB5D19146B34AE005114EE = {
+			isa = PBXGroup;
+			children = (
+				EDBF9C8C146B4BD700B52406 /* RotatingVC */,
+				EDBF9C85146B37C900B52406 /* ImageVC */,
+				EDBF9C7F146B378700B52406 /* Resources */,
+				EDCB5D2E146B34AE005114EE /* RotatingVC */,
+				EDCB5D27146B34AE005114EE /* Frameworks */,
+				EDCB5D25146B34AE005114EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCB5D25146B34AE005114EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB5D24146B34AE005114EE /* RotatingVC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCB5D27146B34AE005114EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB5D28146B34AE005114EE /* UIKit.framework */,
+				EDCB5D2A146B34AE005114EE /* Foundation.framework */,
+				EDCB5D2C146B34AE005114EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDCB5D2E146B34AE005114EE /* RotatingVC */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB5D37146B34AE005114EE /* FRRAppDelegate.h */,
+				EDCB5D38146B34AE005114EE /* FRRAppDelegate.m */,
+				EDCB5D2F146B34AE005114EE /* Supporting Files */,
+			);
+			path = RotatingVC;
+			sourceTree = "<group>";
+		};
+		EDCB5D2F146B34AE005114EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDCB5D30146B34AE005114EE /* RotatingVC-Info.plist */,
+				EDCB5D31146B34AE005114EE /* InfoPlist.strings */,
+				EDCB5D34146B34AE005114EE /* main.m */,
+				EDCB5D36146B34AE005114EE /* RotatingVC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDCB5D23146B34AE005114EE /* RotatingVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCB5D3C146B34AE005114EE /* Build configuration list for PBXNativeTarget "RotatingVC" */;
+			buildPhases = (
+				EDCB5D20146B34AE005114EE /* Sources */,
+				EDCB5D21146B34AE005114EE /* Frameworks */,
+				EDCB5D22146B34AE005114EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotatingVC;
+			productName = RotatingVC;
+			productReference = EDCB5D24146B34AE005114EE /* RotatingVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCB5D1B146B34AE005114EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "AGBO Business Architecture, SL";
+			};
+			buildConfigurationList = EDCB5D1E146B34AE005114EE /* Build configuration list for PBXProject "RotatingVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDCB5D19146B34AE005114EE;
+			productRefGroup = EDCB5D25146B34AE005114EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCB5D23146B34AE005114EE /* RotatingVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCB5D22146B34AE005114EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB5D33146B34AE005114EE /* InfoPlist.strings in Resources */,
+				EDBF9C7C146B377B00B52406 /* horizontal.jpg in Resources */,
+				EDBF9C7D146B377B00B52406 /* vertical.jpg in Resources */,
+				EDBF9C84146B37BD00B52406 /* ImageVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCB5D20146B34AE005114EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCB5D35146B34AE005114EE /* main.m in Sources */,
+				EDCB5D39146B34AE005114EE /* FRRAppDelegate.m in Sources */,
+				EDBF9C83146B37BD00B52406 /* ImageVC.m in Sources */,
+				EDBF9C8A146B4BCE00B52406 /* FRRRotatingViewController.m in Sources */,
+				EDBF9C8B146B4BCE00B52406 /* FRRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDCB5D31146B34AE005114EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDCB5D32146B34AE005114EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDCB5D3A146B34AE005114EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDCB5D3B146B34AE005114EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDCB5D3D146B34AE005114EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotatingVC/RotatingVC-Prefix.pch";
+				INFOPLIST_FILE = "RotatingVC/RotatingVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDCB5D3E146B34AE005114EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotatingVC/RotatingVC-Prefix.pch";
+				INFOPLIST_FILE = "RotatingVC/RotatingVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCB5D1E146B34AE005114EE /* Build configuration list for PBXProject "RotatingVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCB5D3A146B34AE005114EE /* Debug */,
+				EDCB5D3B146B34AE005114EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCB5D3C146B34AE005114EE /* Build configuration list for PBXNativeTarget "RotatingVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCB5D3D146B34AE005114EE /* Debug */,
+				EDCB5D3E146B34AE005114EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDCB5D1B146B34AE005114EE /* Project object */;
+}
