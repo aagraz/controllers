@@ -22,7 +22,7 @@ handy when you need to change the UI of your app. A good example is Apple's Calc
 Creating a single UIView that repositions and creates new subviews on rotation is out of question. The best 
 solution is to have 2 View Controllers: one for portrait and another for landscape.  
 
-*FRRRotatingViewController* handles this _automagically_ for you: just initialize it with 2 *FRRViewController*s
+*FRRRotatingViewController* handles this _automagically_ for you: just initialize it with 2 *FRRViewControllers*
 and it will do the magic for you. 
 
 	-(FRRRotatingViewController *) initWithLandscapeViewController: (FRRViewController *) landscape 
